@@ -1,6 +1,8 @@
 # Mi cuenta · Express, MongoDB y JWT
 
-Aplicación web del Laboratorio 07 de Desarrollo de Aplicaciones Web Avanzado. Incluye registro, autenticación, perfil editable y dashboards por rol, con un diseño Liquid Glass y luces animadas.
+Aplicación web del Laboratorio 08 de Desarrollo de Aplicaciones Web Avanzado. Incluye registro, autenticación, perfil editable y dashboards por rol, con un diseño Liquid Glass y luces animadas.
+
+> Esta entrega reutiliza la aplicación JWT de la semana 07 y añade despliegue en MongoDB Atlas y Render mediante GitHub Actions. Consulta [la guía del laboratorio 08](docs/LAB08.md) para configurar credenciales, despliegue y evidencias.
 
 ![Dashboard de administrador](docs/screenshots/05-dashboard-admin.png)
 
@@ -29,8 +31,8 @@ Aplicación web del Laboratorio 07 de Desarrollo de Aplicaciones Web Avanzado. I
 ## Instalación
 
 ```bash
-git clone https://github.com/C5-PHO/DAWA-S7.git
-cd DAWA-S7
+git clone https://github.com/C5-PHO/DAWA-S8.git
+cd DAWA-S8
 npm ci
 ```
 
@@ -253,3 +255,4 @@ La revisión de dependencias realizada durante el desarrollo encontró avisos en
 - [EJS](https://ejs.co/)
 - [Materialize](https://materializecss.com/getting-started.html)
 - [MongoDB](https://www.mongodb.com/docs/)
+
